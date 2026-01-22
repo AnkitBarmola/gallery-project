@@ -1,16 +1,49 @@
-# React + Vite
+## Gallery Project (React + Axios)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A small **toy project** built while learning how to **fetch data from an API using Axios** and manage it with **React hooks** like `useEffect` and `useState`.  
+The goal of this project was hands-on learning through implementation rather than building a large-scale application.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Preview
 
-## React Compiler
+![Project Preview](./image.png)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Fetches images from an external API using **Axios**
+- Uses **useEffect** for API calls on component mount
+- Manages data and pagination state with **useState**
+- Clean **gallery layout** with image cards
+- **Page-based navigation** (Prev / Next)
+- Dark-themed UI for better visual focus
+
+---
+
+## Tech Stack
+
+- React (Vite)
+- Axios
+- JavaScript (ES6+)
+- CSS / Tailwind (if applicable)
+
+---
+
+## What I Learned
+
+- Making API requests with Axios
+- Handling side effects using `useEffect`
+- Managing component state with `useState`
+- Implementing simple pagination logic
+- Structuring a React project for readability
+- Rendering dynamic data using `.map()`
+
+---
+
+## Getting Started
+
+1. Clone the repository
+   ```bash
+   git clone https://github.com/AnkitBarmola/gallery-project.git
